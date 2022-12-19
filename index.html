@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Studio</title>
     <meta name="description" content="Zadanie domowe z Modułu 1 HTML na kursie GOIT FSD" />
     <meta name="author" content="Grzegorz Focht" />
@@ -8,49 +15,59 @@
   </head>
   <body>
     <header>
-      <span class="company-name-header"
-        ><a href=""><span class="text-highlight-blue">Web</span>Studio</a></span
-      >
+      <span class="company-logo"><span class="logo-highlight">Web</span>Studio</span>
       <div class="navigation-global">
         <nav>
           <ul class="navigation-list">
             <li class="navigation-list-item">
-              <a href="" class="text-highlight-blue">Agencja</a>
+              <a href="index.html" class="link highlight">Agencja</a>
             </li>
-            <li class="navigation-list-item"><a href="">Portfolio</a></li>
-            <li class="navigation-list-item"><a href="">Kontakt</a></li>
+            <li class="navigation-list-item">
+              <a href="portfolio.html" class="link highlight">Portfolio</a>
+            </li>
+            <li class="navigation-list-item">
+              <a href="" class="link highlight">Kontakt</a>
+            </li>
           </ul>
         </nav>
-        <span class="text-highlight-blue">info@devstudio.com</span>
-        <span>+48 111 111 111</span>
+        <span class="header-contact highlight">info@devstudio.com</span>
+        <span class="header-contact highlight">+48 111 111 111</span>
       </div>
     </header>
     <main>
       <section class="headline-and-order-global">
         <h1 class="headline">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="order" type="button">Zamów usługę</button>
+        <button class="b-order" type="button">Zamów usługę</button>
       </section>
       <section class="our-strenghts-global">
         <ul class="our-strenghts-list">
-          <li class="our-strenghts-list-feature">
-            <p class="feature-title">LOREM IPSUM</p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
-            sodales dui. Interdum et malesuada
+          <li class="our-strenghts-item">
+            <p class="feature-text">LOREM IPSUM</p>
+            <p class="feature-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
+            </p>
           </li>
-          <li class="our-strenghts-list-feature">
-            <p class="feature-title">LOREM IPSUM</p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
-            sodales dui. Interdum et malesuada
+          <li class="our-strenghts-item">
+            <p class="feature-text">LOREM IPSUM</p>
+            <p class="feature-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
+            </p>
           </li>
-          <li class="our-strenghts-list-feature">
-            <p class="feature-title">LOREM IPSUM</p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
-            sodales dui. Interdum et malesuada
+          <li class="our-strenghts-item">
+            <p class="feature-text">LOREM IPSUM</p>
+            <p class="feature-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
+            </p>
           </li>
-          <li class="our-strenghts-list-feature">
-            <p class="feature-title">LOREM IPSUM</p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
-            sodales dui. Interdum et malesuada
+          <li class="our-strenghts-item">
+            <p class="feature-text">LOREM IPSUM</p>
+            <p class="feature-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+              sodales dui. Interdum et malesuada
+            </p>
           </li>
         </ul>
       </section>
@@ -90,7 +107,7 @@
         <h2 class="main-section-heading">Nasz zespół</h2>
         <ul class="team-list">
           <li class="team-item">
-            <div class="team-card" style="width: 270px; height: 368px">
+            <div class="team-card">
               <img
                 class="team-member"
                 src="images/teammember01.jpg"
@@ -98,12 +115,12 @@
                 width="270"
                 height="260"
               />
-              <p class="team-member-name">John Doe</p>
-              <p class="profession">Product Designer</p>
+              <p class="feature-text">John Doe</p>
+              <p class="feature-description">Product Designer</p>
             </div>
           </li>
           <li class="team-item">
-            <div class="team-card" style="width: 270px; height: 368px">
+            <div class="team-card">
               <img
                 class="team-member"
                 src="images/teammember02.jpg"
@@ -111,12 +128,12 @@
                 width="270"
                 height="260"
               />
-              <p class="team-member-name">John Doe</p>
-              <p class="profession">Frontend Developer</p>
+              <p class="feature-text">John Doe</p>
+              <p class="feature-description">Frontend Developer</p>
             </div>
           </li>
           <li class="team-item">
-            <div class="team-card" style="width: 270px; height: 368px">
+            <div class="team-card">
               <img
                 class="team-member"
                 src="images/teammember03.jpg"
@@ -124,12 +141,12 @@
                 width="270"
                 height="260"
               />
-              <p class="team-member-name">John Doe</p>
-              <p class="profession">Marketing</p>
+              <p class="feature-text">John Doe</p>
+              <p class="feature-description">Marketing</p>
             </div>
           </li>
           <li class="team-item">
-            <div class="team-card" style="width: 270px; height: 368px">
+            <div class="team-card">
               <img
                 class="team-member"
                 src="images/teammember04.jpg"
@@ -137,22 +154,22 @@
                 width="270"
                 height="260"
               />
-              <p class="team-member-name">John Doe</p>
-              <p class="profession">UI Designer</p>
+              <p class="feature-text">John Doe</p>
+              <p class="feature-description">UI Designer</p>
             </div>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <span class="company-name-footer"
-        ><a href=""><span class="text-highlight-blue">Web</span>Studio</a></span
-      >
-      <address>
-        <p class="geo-details">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <p class="contact-details">info@example.com</p>
-        <p class="contact-details">+48 111 111 111</p>
-      </address>
+      <div class="footnote">
+        <span class="company-logo"><span class="logo-highlight">Web</span>Studio</span>
+        <address class="address-details">
+          <p class="geo-details">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <p class="contact-details highlight">info@example.com</p>
+          <p class="contact-details highlight">+48 111 111 111</p>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
