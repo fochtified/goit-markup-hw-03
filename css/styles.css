@@ -58,6 +58,7 @@ footer .company-logo {
 
 .header-contact {
   color: var(--secondary-text);
+  cursor: pointer;
 }
 
 .b-order {
@@ -183,6 +184,7 @@ footer .company-logo {
 
 .address-details > .contact-details {
   color: var(--tertiary-text);
+  cursor: pointer;
 }
 
 .highlight:focus,
